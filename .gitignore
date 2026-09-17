@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large generated outputs (recreated by running the simulation)
+polar_energy_sim/outputs/*.csv
+polar_energy_sim/outputs/*.png
+polar_energy_sim/data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+polar_energy_sim/data/
+**/__pycache__/
+webapp/__pycache__/
